@@ -1,0 +1,17 @@
+D:\Projects\Joyconlib\Joyconlib\obj\Debug\Joyconlib.csprojAssemblyReference.cache
+D:\Projects\Joyconlib\Joyconlib\obj\Debug\Joyconlib.csproj.CoreCompileInputs.cache
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\Joyconlib.exe
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\Joyconlib.pdb
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\cmd.dll
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\SharpDX.dll
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\SharpDX.pdb
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\SharpDX.DirectInput.dll
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\SharpDX.DirectInput.pdb
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\HidSharp.dll
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\SharpJoycon.dll
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\HidSharp.pdb
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\HidSharp.xml
+D:\Projects\Joyconlib\Joyconlib\bin\Debug\SharpJoycon.pdb
+D:\Projects\Joyconlib\Joyconlib\obj\Debug\Joyconlib.csproj.CopyComplete
+D:\Projects\Joyconlib\Joyconlib\obj\Debug\Joyconlib.exe
+D:\Projects\Joyconlib\Joyconlib\obj\Debug\Joyconlib.pdb
