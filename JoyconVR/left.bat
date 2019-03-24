@@ -28,4 +28,4 @@ client_commandline.exe setdeviceproperty 0 5007	string	{htc}controller_status_st
 client_commandline.exe setdeviceproperty 0 5008	string	{htc}controller_status_ready_low.png
 client_commandline.exe publishdevice 0
 client_commandline.exe setdeviceconnection 0 1
-client_commandline.exe setdeviceposition 0 -1 -1 -1
+client_commandline.exe setdeviceposition 0 1 -1 0
