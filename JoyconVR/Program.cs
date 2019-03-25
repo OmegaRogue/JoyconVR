@@ -224,7 +224,7 @@ namespace JoyconVR
 					Console.WriteLine("client_commandline.exe press 0 ");
 
 				if (leftJoycon.GetButton(Joycon.Button.CAPTURE))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 0 0");
 
 				if (leftJoycon.GetButton(Joycon.Button.STICK))
 					Console.WriteLine("client_commandline.exe press 0 ");
@@ -259,34 +259,34 @@ namespace JoyconVR
 					rightJoycon.Recenter();
 
 				if (rightJoycon.GetButton(Joycon.Button.SL))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.SR))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.CAPTURE))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 0");
 
 				if (rightJoycon.GetButton(Joycon.Button.STICK))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.DPAD_UP))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.DPAD_DOWN))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.DPAD_LEFT))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.DPAD_RIGHT))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.SHOULDER_1))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 
 				if (rightJoycon.GetButton(Joycon.Button.SHOULDER_2))
-					Console.WriteLine("client_commandline.exe press 0 ");
+					Console.WriteLine("client_commandline.exe press 1 ");
 			}
 
 			#endregion
@@ -337,5 +337,9 @@ namespace JoyconVR
 #pragma warning restore 1998
 
 		#endregion
+	}
+
+	public class ButtonData
+	{
 	}
 }
