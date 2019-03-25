@@ -45,6 +45,16 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AHRS\MadgwickAHRS.cs" />
+        <Compile Include="AHRS\MahonyAHRS.cs" />
+        <Compile Include="Lib\HIDapi.cs" />
+        <Compile Include="Lib\Joycon.cs" />
+        <Compile Include="Lib\JoyconManager.cs" />
+        <Compile Include="Lib\MathHelper.cs" />
+        <Compile Include="Lib\Matrix.cs" />
+        <Compile Include="Lib\Quaternion.cs" />
+        <Compile Include="Lib\Vector3.cs" />
+        <Compile Include="Math3D.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
@@ -52,8 +62,6 @@
       <PackageReference Include="Angle" Version="2.0.0" />
       <PackageReference Include="cmd" Version="0.2.0" />
       <PackageReference Include="SharpDX.DirectInput" Version="4.2.0" />
-      <PackageReference Include="System.Numerics.Vectors" Version="4.6.0-preview3.19128.7" />
-      <PackageReference Include="System.Runtime.Numerics" Version="4.3.0" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

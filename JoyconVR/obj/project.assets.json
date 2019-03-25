@@ -385,19 +385,6 @@
           "lib/net46/System.Net.Sockets.dll": {}
         }
       },
-      "System.Numerics.Vectors/4.6.0-preview3.19128.7": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
-        }
-      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1088,19 +1075,6 @@
           "lib/net46/System.Net.Sockets.dll": {}
         }
       },
-      "System.Numerics.Vectors/4.6.0-preview3.19128.7": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
-        }
-      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1747,19 +1721,6 @@
           "lib/net46/System.Net.Sockets.dll": {}
         }
       },
-      "System.Numerics.Vectors/4.6.0-preview3.19128.7": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
-        }
-      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -2404,19 +2365,6 @@
         },
         "runtime": {
           "lib/net46/System.Net.Sockets.dll": {}
-        }
-      },
-      "System.Numerics.Vectors/4.6.0-preview3.19128.7": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
         }
       },
       "System.ObjectModel/4.3.0": {
@@ -4018,53 +3966,6 @@
         "system.net.sockets.nuspec"
       ]
     },
-    "System.Numerics.Vectors/4.6.0-preview3.19128.7": {
-      "sha512": "WVVqdjKznBGbc66uTPdLIx6yz5JVftKWGMkd1zw4MJMk8iK99ulFoDnT5CD85kJlxM6pXbOvicqQTkdY25KLvw==",
-      "type": "package",
-      "path": "system.numerics.vectors/4.6.0-preview3.19128.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Numerics.Vectors.dll",
-        "lib/net46/System.Numerics.Vectors.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.0/System.Numerics.Vectors.dll",
-        "lib/netstandard1.0/System.Numerics.Vectors.xml",
-        "lib/netstandard2.0/System.Numerics.Vectors.dll",
-        "lib/netstandard2.0/System.Numerics.Vectors.xml",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
-        "lib/uap10.0.16299/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/System.Numerics.Vectors.dll",
-        "ref/net45/System.Numerics.Vectors.xml",
-        "ref/net46/System.Numerics.Vectors.dll",
-        "ref/net46/System.Numerics.Vectors.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.0/System.Numerics.Vectors.dll",
-        "ref/netstandard1.0/System.Numerics.Vectors.xml",
-        "ref/netstandard2.0/System.Numerics.Vectors.dll",
-        "ref/netstandard2.0/System.Numerics.Vectors.xml",
-        "ref/uap10.0.16299/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.numerics.vectors.4.6.0-preview3.19128.7.nupkg.sha512",
-        "system.numerics.vectors.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.ObjectModel/4.3.0": {
       "sha512": "bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "type": "package",
@@ -5494,8 +5395,6 @@
     ".NETFramework,Version=v4.7.1": [
       "Angle >= 2.0.0",
       "SharpDX.DirectInput >= 4.2.0",
-      "System.Numerics.Vectors >= 4.6.0-preview3.19128.7",
-      "System.Runtime.Numerics >= 4.3.0",
       "cmd >= 0.2.0"
     ]
   },
@@ -5539,14 +5438,6 @@
           "SharpDX.DirectInput": {
             "target": "Package",
             "version": "[4.2.0, )"
-          },
-          "System.Numerics.Vectors": {
-            "target": "Package",
-            "version": "[4.6.0-preview3.19128.7, )"
-          },
-          "System.Runtime.Numerics": {
-            "target": "Package",
-            "version": "[4.3.0, )"
           },
           "cmd": {
             "target": "Package",
